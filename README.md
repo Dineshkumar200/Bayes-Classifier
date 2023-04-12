@@ -44,7 +44,7 @@ clf.fit(X_train,y_train)
 y_pred=clf.predict(X_test)
 accuracy=accuracy_score(y_test,y_pred)
 print("Accuracy:",accuracy)
-```python
+```
 
 ## Output:
 ![Screenshot 2023-04-12 234927](https://user-images.githubusercontent.com/75235789/231550114-d869a488-b409-467c-82b6-11e5cc115508.jpg)
