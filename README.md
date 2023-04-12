@@ -22,7 +22,7 @@ Output:
 7. Evaluate the classifier's accuracy using the accuracy_score function from scikit-learn.
 
 ## Program:
-```
+```python
 import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
@@ -44,7 +44,7 @@ clf.fit(X_train,y_train)
 y_pred=clf.predict(X_test)
 accuracy=accuracy_score(y_test,y_pred)
 print("Accuracy:",accuracy)
-```
+```python
 
 ## Output:
 ![Screenshot 2023-04-12 234927](https://user-images.githubusercontent.com/75235789/231550114-d869a488-b409-467c-82b6-11e5cc115508.jpg)
