@@ -3,7 +3,7 @@
 ### DATE: 06/04/2023 
 
 
-# <br/><p align = "center"> Bayes-Classifier </p>
+# <br/><p align = "center"> Implementation of Bayes Classifier </p>
 
 ## Aim:
 To Construct a Bayes Classifier to classiy iris dataset using Python.
