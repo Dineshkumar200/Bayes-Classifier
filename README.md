@@ -1,4 +1,10 @@
-# Bayes-Classifier
+### EX NO: 02
+
+### DATE: 06/04/2023 
+
+
+# <br/><p align = "center"> Bayes-Classifier </p>
+
 ## Aim:
 To Construct a Bayes Classifier to classiy iris dataset using Python.
 ## Algorithm:
@@ -21,7 +27,7 @@ Output:
 6. Make predictions on the testing data using the predict method.
 7. Evaluate the classifier's accuracy using the accuracy_score function from scikit-learn.
 
-## Program:
+## <br><br><br><br><br><br>Program:
 ```python
 import numpy as np
 from sklearn.datasets import load_iris
@@ -46,11 +52,11 @@ accuracy=accuracy_score(y_test,y_pred)
 print("Accuracy:",accuracy)
 ```
 
-## Output:
+## <br><br>Output:
 ![Screenshot 2023-04-12 234927](https://user-images.githubusercontent.com/75235789/231550114-d869a488-b409-467c-82b6-11e5cc115508.jpg)
 
 
-## Result:
+## <br><br>Result:
 Hence, Bayes classifier for iris dataset is implemented successfully
 
 
